@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+env/
+
+# Data files (we generate these, we don't comit them)
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Python cache
+_pycache_/
+*.pyc 
+
+# Logs
+logs/*.log 
