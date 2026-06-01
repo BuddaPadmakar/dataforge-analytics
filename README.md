@@ -32,36 +32,6 @@ This project implements the Medallion Architecture, the industry standard for sc
 ● Version Control: Git, GitHub
 
 
-
-
----
-
-### Step 5: Paste Chunk 4 (Tech Stack Table)
-Copy this, paste it, and press **Enter twice**.
-
-```markdown
- 🛠️ Tech Stack
-
-| Category | Technology | Purpose |
-|---|---|---|
-| **Language** | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python) | Pipeline Orchestration & Data Manipulation |
-| **Storage** | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql) | Relational Data Warehouse |
-| **Infrastructure** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker) | Containerized Database Environment |
-| **Transformation** | Pandas | Data Cleaning & Star Schema Construction |
-| **Analytics** | ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=streamlit) | Interactive BI Dashboards |
-
----
-
-
-
-
-
-
-
-
-
-
-
 🚀 Quick Start
 
 1. Clone the repo: git clone https://github.com/BuddaPadmakar/dataforge-analytics.git
