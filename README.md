@@ -47,7 +47,20 @@ The data pipeline follows the Medallion Architecture pattern, ensuring data qual
 📊 Streamlit Dashboard
 
 
-<img width="604" height="389" alt="image" src="https://github.com/user-attachments/assets/3ee47632-edcd-4bb8-b360-7ace5e80bb48" />
+⛁ Tech Stack
+
+● Language: Python      
+
+● Storage: PostgreSQL
+
+● Infrastructure: Docker
+
+● Transformation: Pandas
+
+● Analytics: Streamlit, Plotly
+
+● Version Control: Git, GitHub
 
 
-    
+# 📁 Project Structure
+
