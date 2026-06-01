@@ -3,6 +3,10 @@
 
 End-to-End Data Engineering & Analytics Pipeline. An industry-grade, production-ready e-commerce data platform.
 
+Business Value
+
+A production-ready e-commerce data platform that processes raw transactional data and transforms it into actionable business insights. This project demonstrates the complete data lifecycle, focusing on data quality, scalable architecture, and analytical accessibility
+
 🏗️ Architecture
 This project implements the Medallion Architecture, the industry standard for scalable data platforms.
 
