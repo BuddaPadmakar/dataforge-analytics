@@ -12,10 +12,15 @@ This project implements the Medallion Architecture (Bronze -> Silver -> Gold).
 
 Tech Stack
 ● Language: Python
+
 ● Storage: PostgreSQL
+
 ● Infrastructure: Docker
+
 ● Transformation: Pandas
+
 ● Analytics: Streamlit, Plotly
+
 ● Version Control: Git, GitHub
 
 🚀 Quick Start
