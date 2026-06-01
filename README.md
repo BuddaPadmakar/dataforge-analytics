@@ -32,41 +32,7 @@ End-to-End Data Engineering & Analytics Pipeline. An industry-grade, production-
 A production-ready e-commerce data platform that processes raw transactional data and transforms it into actionable business insights. This project demonstrates the complete data lifecycle, focusing on data quality, scalable architecture, and analytical accessibility
 
 ## 🏗️ Architecture
-This project implements the Medallion Architecture, the industry standard for scalable data platforms.
 
-📄 Raw CSV --> 🥉Bronze (Raw) --> 🥈 Silver (Cleaned) --> 🥇 Gold (Star Schema) --> 📊 Dashboard
+The data pipeline follows the Medallion Architecture pattern, ensuring data quality and scalability at each layer
 
-1. Bronze Layer (Raw): Ingests raw CSV data into PostgreSQL
-2. Silver Layer (Cleaned): Cleans, standardizes, and deduplicates data.
-3. Gold Layer (Modeled): Constructs a Star Schema for analytics.
-4. Quality Gates: Automated checks ensure data integrity.
-
-⛁ Tech Stack
-
-● Language: Python
-
-● Storage: PostgreSQL
-
-● Infrastructure: Docker
-
-● Transformation: Pandas
-
-● Analytics: Streamlit, Plotly
-
-● Version Control: Git, GitHub
-
-
-🚀 Quick Start
-
-1. Clone the repo: git clone https://github.com/BuddaPadmakar/dataforge-analytics.git
-2. Setup environment: python3 -m venv venv then source venv/bin/activate then pip install -r requirements.txt
-3. Start Database: docker compose up -d
-4. Generate Data: python3 generate_data.py
-5. Run Pipeline: python3 run_pipeline.py
-6. View Dashboard: python3 -m streamlit run analytics/dashboard.py
-
-👩🏻‍💻 Author
-
-Padmakar Budda
-
-Built to obsession for clean data
+graph TD A[📄 Source Systems: Raw CSVs] --> |Python Ingestion| B(🥉 Bronze Layer)  B --> |Cleaning & Standardization|  C(🥈 Siver Layer)  C -->|Star Schema Modeling| D(🥇 Gold Layer)   D --> |BI Analytics|  E(📊 Streamlit Dashboard)    style A fill:#f9f, stroke:#333,stroke-width:2px   style B fill:#cd7f32,stroke:#333,stroke-width:2px  style C fill:#C0C0C0,stroke:#333,stroke-width:2px   style D fill:#FFD700,stroke:#333,stroke-width:2px  style D fill:#FFD700,stroke:#333,stroke-width:2px  style E fill:#4B0082,stroke:#fff,stroke-width:2px
