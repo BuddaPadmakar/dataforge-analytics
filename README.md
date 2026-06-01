@@ -47,18 +47,6 @@ The data pipeline follows the Medallion Architecture pattern, ensuring data qual
 📊 Streamlit Dashboard
 
 
-
-### Fix 2: The Database ERD Diagram
-1. In the same editing screen, find `## 📊 Data Model (Star Schema)`.
-2. **Delete** everything from that heading down to the `---` below it.
-3. Replace it with **exactly** this:
-
-```markdown
-# 📊 Data Model (Star Schema)
-
-The Gold layer utilizes a Star Schema designed for fast analytical queries.
-
-```mermaid
 erDiagram
     DIM_CUSTOMERS ||--o{ FACT_SALES : "has"
     DIM_PRODUCTS ||--o{ FACT_SALES : "includes"
@@ -94,3 +82,7 @@ erDiagram
         float net_amount
         float tax_amount
     }
+
+
+
+    
