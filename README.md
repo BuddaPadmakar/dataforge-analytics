@@ -35,5 +35,13 @@ A production-ready e-commerce data platform that processes raw transactional dat
 
 The data pipeline follows the Medallion Architecture pattern, ensuring data quality and scalability at each layer
 
- 
-📄 Source Systems: Raw CSVs --> |Python Ingestion| B(🥉 Bronze Layer)  B --> |Cleaning & Standardization|  C(🥈 Siver Layer)  C -->|Star Schema Modeling| D(🥇 Gold Layer)   D --> |BI Analytics|  E(📊 Streamlit Dashboard)  
+
+📄 Source Systems: Raw CSVs --> Python Ingestion
+
+🥉 Bronze Layer   --> Cleaning & Standardization 
+
+🥈 Siver Layer  --> Star Schema Modeling 
+
+🥇 Gold Layer   --> BI Analytics
+
+📊 Streamlit Dashboard
