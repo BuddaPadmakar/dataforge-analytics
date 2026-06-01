@@ -33,6 +33,8 @@ Tech Stack
 5. Run Pipeline: python3 run_pipeline.py
 6. View Dashboard: python3 -m streamlit run analytics/dashboard.py
 
-Author
+👩🏻‍💻 Author
+
 Padmakar Budda
+
 Built for industry grade obsession
