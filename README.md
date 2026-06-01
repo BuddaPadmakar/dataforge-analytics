@@ -6,7 +6,7 @@
 End-to-End Data Engineering & Analytics Pipeline. An industry-grade, production-ready e-commerce data platform.
 
 
-Table of Contents
+# Table of Contents
 
 ● Overview
 
