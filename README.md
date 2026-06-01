@@ -76,3 +76,9 @@ The data pipeline follows the Medallion Architecture pattern, ensuring data qual
 4. Generate Data: python3 generate_data.py
 5. Run Pipeline: python3 run_pipeline.py
 6. View Dashboard: python3 -m streamlit run analytics/dashboard.py
+
+# 👩🏻‍💻 Author
+
+Padmakar Budda
+
+Built to obsession for clean data
