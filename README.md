@@ -67,3 +67,12 @@ The data pipeline follows the Medallion Architecture pattern, ensuring data qual
 
 <img width="630" height="204" alt="image" src="https://github.com/user-attachments/assets/c912ca46-886d-4e7a-af12-6bba9f57add7" />
 
+
+# 🚀 Quick Start
+
+1. Clone the repo: git clone https://github.com/BuddaPadmakar/dataforge-analytics.git
+2. Setup environment: python3 -m venv venv then source venv/bin/activate then pip install -r requirements.txt
+3. Start Database: docker compose up -d
+4. Generate Data: python3 generate_data.py
+5. Run Pipeline: python3 run_pipeline.py
+6. View Dashboard: python3 -m streamlit run analytics/dashboard.py
