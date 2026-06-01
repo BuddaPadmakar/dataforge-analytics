@@ -47,42 +47,7 @@ The data pipeline follows the Medallion Architecture pattern, ensuring data qual
 📊 Streamlit Dashboard
 
 
-erDiagram
-    DIM_CUSTOMERS ||--o{ FACT_SALES : "has"
-    DIM_PRODUCTS ||--o{ FACT_SALES : "includes"
-    DIM_DATE ||--o{ FACT_SALES : "occurs on"
-
-    DIM_CUSTOMERS {
-        int customer_key PK
-        int customer_id
-        string first_name
-        string email
-        string segment
-    }
-    DIM_PRODUCTS {
-        int product_key PK
-        int product_id
-        string products_name
-        string category
-        float unit_price
-    }
-    DIM_DATE {
-        int date_key PK
-        date full_date
-        int year
-        string month_name
-        boolean is_weekend
-    }
-    FACT_SALES {
-        int sales_key PK
-        int customer_key FK
-        int product_key FK
-        int date_key FK
-        int quantity
-        float net_amount
-        float tax_amount
-    }
-
+<img width="604" height="389" alt="image" src="https://github.com/user-attachments/assets/3ee47632-edcd-4bb8-b360-7ace5e80bb48" />
 
 
     
