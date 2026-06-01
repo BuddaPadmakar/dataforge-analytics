@@ -12,7 +12,7 @@ A production-ready e-commerce data platform that processes raw transactional dat
 
 # 🏗️ Architecture
 
-The data pipeline follows the Medallion Architecture pattern, ensuring data quality and scalability at each layer
+The data pipeline follows the Medallion Architecture, ensuring data quality and scalability at each layer and the industry standard for scalable data platforms.
 
 
 📄 Source Systems: Raw CSVs --> Python Ingestion
