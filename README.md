@@ -1,5 +1,4 @@
-#  DataForge Analytics Platform 
-**End-to-End Data Engineering & Analytics Pipeline** ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?style=for-the-badge&logo=postgresql) ![Docker](https://img.shields.io/badge/Docker-Compose-blue?style=for-the-badge&logo=docker) ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit) 
+#  DataForge Analytics Platform **End-to-End Data Engineering & Analytics Pipeline** ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?style=for-the-badge&logo=postgresql) ![Docker](https://img.shields.io/badge/Docker-Compose-blue?style=for-the-badge&logo=docker) ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit) 
 
 
 End-to-End Data Engineering & Analytics Pipeline. An industry-grade, production-ready e-commerce data platform.
