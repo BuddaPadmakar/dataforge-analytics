@@ -11,6 +11,7 @@ This project implements the Medallion Architecture (Bronze -> Silver -> Gold).
 4. Quality Gates: Automated checks ensure data integrity.
 
 Tech Stack
+
 ● Language: Python
 
 ● Storage: PostgreSQL
