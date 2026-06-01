@@ -41,7 +41,7 @@ The data pipeline follows the Medallion Architecture pattern, ensuring data qual
 ● Version Control: Git, GitHub
 
 
-# 📁 Project Structure
+# 📁 Respository Structure
 
 
 <img width="630" height="204" alt="image" src="https://github.com/user-attachments/assets/c912ca46-886d-4e7a-af12-6bba9f57add7" />
