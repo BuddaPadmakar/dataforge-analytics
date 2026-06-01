@@ -40,7 +40,7 @@ This project implements the Medallion Architecture, the industry standard for sc
 Copy this, paste it, and press **Enter twice**.
 
 ```markdown
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 | Category | Technology | Purpose |
 |---|---|---|
@@ -51,6 +51,11 @@ Copy this, paste it, and press **Enter twice**.
 | **Analytics** | ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=streamlit) | Interactive BI Dashboards |
 
 ---
+
+
+
+
+
 
 
 
