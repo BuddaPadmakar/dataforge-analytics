@@ -28,13 +28,13 @@ The data pipeline follows the Medallion Architecture, ensuring data quality and 
 
 # ⛁ Tech Stack
 
-● Language: Python      
+● Language: Python, SQL     
 
-● Storage: PostgreSQL
+● Storage: PostgreSQL, SQLAlchemy
 
 ● Infrastructure: Docker
 
-● Transformation: Pandas
+● Transformation: Pandas, Numpy
 
 ● Analytics: Streamlit, Plotly
 
