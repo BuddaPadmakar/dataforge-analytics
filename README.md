@@ -64,3 +64,13 @@ The data pipeline follows the Medallion Architecture pattern, ensuring data qual
 
 # 📁 Project Structure
 
+
+dataforge-analytics/
+├── analytics/          # Streamlit dashboard code
+├── data/               # Local raw CSV data (Gitignored)
+├── src/
+│   ├── ingestion/      # Bronze layer extraction scripts
+│   └── transformation/ # Silver & Gold transformation scripts
+├── docker-compose.yml  # PostgreSQL database setup
+├── generate_data.py    # Synthetic data generator
+└── run_pipeline.py     # Master orchestration script
