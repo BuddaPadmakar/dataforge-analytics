@@ -6,7 +6,7 @@ End-to-End Data Engineering & Analytics Pipeline. An industry-grade, production-
 🏗️ Architecture
 This project implements the Medallion Architecture, the industry standard for scalable data platforms.
 
-📄 Raw CSV -> 🥉Bronze (Raw) -> 🥈 Silver (Cleaned) -> 🥇 Gold (Star Schema) -> 📊 Dashboard
+📄 Raw CSV --> 🥉Bronze (Raw) --> 🥈 Silver (Cleaned) --> 🥇 Gold (Star Schema) --> 📊 Dashboard
 
 1. Bronze Layer (Raw): Ingests raw CSV data into PostgreSQL
 2. Silver Layer (Cleaned): Cleans, standardizes, and deduplicates data.
