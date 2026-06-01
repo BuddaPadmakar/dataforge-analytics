@@ -13,7 +13,7 @@ This project implements the Medallion Architecture, the industry standard for sc
 3. Gold Layer (Modeled): Constructs a Star Schema for analytics.
 4. Quality Gates: Automated checks ensure data integrity.
 
-Tech Stack
+⛁ Tech Stack
 
 ● Language: Python
 
