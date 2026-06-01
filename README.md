@@ -8,7 +8,7 @@ End-to-End Data Engineering & Analytics Pipeline. An industry-grade, production-
 
 # Table of Contents
 
-● (Overview)
+● [(Overview)]
 
 ● Architecture
 
