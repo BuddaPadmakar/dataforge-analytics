@@ -26,7 +26,7 @@ The data pipeline follows the Medallion Architecture pattern, ensuring data qual
 📊 Streamlit Dashboard
 
 
-⛁ Tech Stack
+# ⛁ Tech Stack
 
 ● Language: Python      
 
