@@ -37,4 +37,4 @@ Tech Stack
 
 Padmakar Budda
 
-Built for industry grade obsession
+Built to obsession for clean data
